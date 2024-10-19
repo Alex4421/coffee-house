@@ -1,0 +1,141 @@
+/* Сброс стилей по умолчанию */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%; /* Установите базовый размер шрифта */
+}
+
+body {
+    line-height: 1.5; /* Установите высоту строки */
+    font-family: Arial, sans-serif; /* Установите шрифт по умолчанию */
+}
+
+/* Сброс для заголовков */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Уберите жирность заголовков */
+}
+
+/* Сброс для списков */
+ul, ol {
+    list-style: none; /* Уберите маркеры и номера */
+}
+
+/* Сброс для ссылок */
+a {
+    text-decoration: none; /* Уберите подчеркивание */
+    color: inherit; /* Установите цвет ссылки равным цвету текста */
+}
+
+/* Сброс для изображений */
+img {
+    max-width: 100%; /* Сделайте изображения отзывчивыми */
+    height: auto; /* Сохраняйте пропорции */
+}
+
+/* Сброс для таблиц */
+table {
+    border-collapse: collapse; /* Уберите промежутки между ячейками */
+}
+header{
+    width: 144rem;
+    height: 72.4rem;
+    gap: 2rem;
+    display: flex;
+}
+.home{
+    width: 144rem;
+    padding: 2rem 0rem 4rem 0rem;
+    gap: 10rem;
+    background: #E1D4C9;
+    margin: 0 auto;
+    display: flex;
+}
+.container{
+    width: 144rem;
+    height: 6rem;
+    padding: 0rem 4rem 0rem 4rem;
+    display: flex
+}
+.container_header-menu{
+    display: flex;
+    width: 136rem;
+    height: 6rem;
+    max-width: 136rem;
+    justify-content: space-between;
+
+}
+.logo{
+    width: 10rem;
+    height: 6rem;
+}
+nav{
+    width: 118rem;
+    height: 6rem;
+    gap: 4rem;
+    display: flex;
+}
+nav ul {
+    width: 118rem;
+    height: 6rem;
+    gap: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li a{
+    color: #403F3D;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: left;
+
+}
+.first{
+    width:11.7rem;
+    height: 2.4rem;
+    gap: 0.8rem;
+
+}
+body{
+    font-family: 'Inter', sans-serif;
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  user-select: none;
+}
+html{
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    user-select: none;
+}
+.container_header-menu-button-img-text{
+    width:  7.2rem;
+    height: 2.8rem;
+    display: flex;
+}
+.coffee-cup{
+    width: 2rem;
+    height: 2rem;
+}
+.menu{
+    width: 4.4rem;
+    height: 2.4rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: left;
+}
