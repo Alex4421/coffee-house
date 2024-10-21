@@ -349,6 +349,7 @@ color: var(--text-accent, #B0907A);
     font-weight: 600;
     line-height: 3rem;
     text-align: center;
+    
 }
 .slide1_content_text2{
     width: 48rem;
@@ -450,4 +451,128 @@ color: var(--text-accent, #B0907A);
     max-width: 66rem;
     height: 59rem;
     border-radius: 2rem;
+}
+.mobile_app{
+    width: 144rem;
+    height: 63rem;
+    gap: 10rem;
+    border-radius: 4rem;
+    display: flex;
+}
+.mobile_app_container{
+    width:136rem;
+    height:63rem;
+    max-width: 136rem;
+    gap: 10rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.mobile_app_container_offer{
+    width: 63rem;
+    height: 34.2rem;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.mobile_app_container_offer_text1{
+    width: 63rem;
+    height: 15rem;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 7.5rem;
+    text-align: left;
+    color: var(--text-dark, #403F3D);
+    letter-spacing: 0.1rem;
+}
+.mobile_app_container_offer_text1 span{
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 7.5rem;
+    text-align: left;
+    color: var(--text-accent, #B0907A);
+    font-style: italic;  
+}
+.mobile_app_container_offer_text2{
+    width: 63rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: left;
+    color:#403F3D;
+}
+.mobile_app_container_offer_buttons_ios{
+    width:42rem;
+    height:6.4rem;
+    gap: 2rem;
+    display: flex;
+}
+.mobile_app_container_offer_buttons_ios, .mobile_app_container_offer_buttons_android{
+    width: 20rem;
+    height: 6.4rem;
+    padding: 12px 20px 12px 20px;
+    gap: 0.8rem;
+    border-radius: 10rem;
+    border: 1px solid #665F55;
+    display: flex;
+}
+.apple_icon{
+    width: 2.641rem;
+    height: 3.165rem;
+    margin-top: 0.18rem;
+    margin-left: 0.465rem;
+    display: flex;
+}
+.mobile_app_container_offer_buttons_ios_text{
+    width:7.8rem;
+    height: 4rem;
+    gap: 0.2rem;
+    display: flex;
+    flex-direction: column;
+}
+.mobile_app_container_offer_buttons_ios_text1{
+    width: 7.7rem;
+    height: 1.4rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.4rem;
+    text-align: center;
+    color: #403F3D;
+}
+.mobile_app_container_offer_buttons_ios_text2{
+    width: 7.8rem;
+    height: 2.4rem;
+    color: #403F3D;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: left;
+}
+.mobile_app_container_offer_buttons_android_text2{
+    width: 9.2rem;
+    height: 2.4rem;
+    color: #403F3D;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    text-align: left;
+    display: flex;
+}
+.android_icon{
+    width: 2.641rem;
+    height: 3.165rem;
+    margin-top: 0.18rem;
+    margin-left: 0.465rem;
+    display: flex;
+}
+.mobile_app_container_offer_buttons{
+    width: 42rem;
+    height:6.4rem;
+    gap: 2rem;
+    display: flex;
+}
+.mobile_app_container_offer_right{
+    width: 63rem;
+    height: 63rem;
 }
