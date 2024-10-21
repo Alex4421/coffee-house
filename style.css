@@ -1,22 +1,18 @@
-/* Сброс стилей по умолчанию */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-html {
-    font-size: 100%; /* Установите базовый размер шрифта */
-}
-
-body {
-    line-height: 1.5; /* Установите высоту строки */
-    font-family: Arial, sans-serif; /* Установите шрифт по умолчанию */
-}
-
-/* Сброс для заголовков */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: normal; /* Уберите жирность заголовков */
+*, ::before, ::after {
+    font-family: 'Inter', sans-serif;
+    font-size: 10px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    user-select: none;
 }
 
 /* Сброс для списков */
@@ -42,6 +38,9 @@ table {
 }
 header{
     position: relative;
+    width: 144rem;
+    height: 72.4rem;
+    gap: 2rem;
 }
 .home{
     width: 144rem;
@@ -50,6 +49,7 @@ header{
     background: #E1D4C9;
     margin: 0 auto;
     display: flex;
+    flex-direction: column;
 }
 .container{
     width: 144rem;
@@ -180,14 +180,12 @@ html{
     display: flex;
     width: 53rem;
     height: 44.4rem;
-    gap: 4rem;
     flex-direction: column;
     margin: 10rem;
     z-index: 4;
   position: absolute;
 }
 .header-main-info-text{
-    font-family: 'Inter';
     font-size: 72px;
     font-weight: 600;
     line-height: 75.6px;
@@ -197,7 +195,6 @@ html{
 .header-main-info span{
     color: var(--text-accent, #B0907A);
     font-feature-settings: 'clig' off, 'liga' off;
-    font-family: 'Inter';
     font-size: 7.2rem;
     font-style: italic;
     font-weight: 600;
@@ -214,8 +211,180 @@ h1{
   line-height: 1.05;
   margin-bottom: 4rem;
   position: relative;
+  font-family: 'Inter', sans-serif;
 }
-.header-main-info p{
+.menu_o{
+    width: 53rem;
+    height: 7.2rem;
+    color: var(--text-light, #E1D4C9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.7rem;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 4rem;
+    position: relative;
+}
+.header-main-info-text-button{
+    width:20rem;
+    height: 6.4rem;
+    padding: 2rem 7.8rem 2rem 7.8rem;
+    gap: 0.8rem;
+    border-radius: 10rem;
+    background-color: #E1D4C9;
+    display: flex;
+}
+.menu_first{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #403F3D;
+    width: 4.4rem;
+    height: 2.4rem;
+}
+.favorite-coffee{
+    width: 144rem;
+    height: 79.9rem;
+    padding: 0rem 4rem 0rem 4rem;
+    display: flex;
+}
+.favorite-coffee-container{
+    display: flex;
+    width: 136rem;
+    height: 79.9rem;
+    max-width: 136rem;
+    gap: 4rem;
+    flex-direction: column;
+}
+.coffee-like{
+    width: 136rem;
+    height: 7.5rem;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;
+    text-align: center;
     
 }
-
+.coffee-like span{
+font-size: 60px;
+font-style: italic;
+font-weight: 600;
+line-height: 75px;
+text-align: center;
+color: var(--text-accent, #B0907A);
+}
+.slider{
+    width: 136rem;
+    height: 68.4rem;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.slider_main{
+    width:  136rem;
+    height: 64rem;
+    gap: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.slider_controls{
+    height: 0.4rem;
+    gap: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+.button-left, .button-right{
+    width: 6rem;
+    height:6rem;
+    gap: 0px;
+    border-radius: 10rem;
+    border: 0.1rem solid #665F55;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrow-left, .arrow-right{
+    width: 2.4rem;
+    height: 2.4rem;
+    gap: 0px;
+    opacity: 0px;
+}
+.slider-row{
+    width: 115.2rem;
+    height: 64rem;
+    min-width: 48rem;
+    max-width: 115.2rem;
+    gap: 0rem;
+    opacity: 0rem;
+    display: flex;
+}
+.slide1, .slide2, .slide3{
+    width: 115.2rem;
+    height: 64rem;
+    min-width: 48rem;
+    max-width: 116.2rem;
+    display: flex;
+    justify-content: center;
+}
+.slide1_content{
+    width: 48rem;
+    height: 64rem;
+    max-width: 48rem;
+    gap: 2rem;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.img_slider1{
+    width: 48rem;
+    height: 48rem;
+}
+.slide1_content_text{
+    width:48rem;
+    height:14rem;
+    gap: 1.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.slide1_content_text1{
+    width: 48rem;
+    height: 3rem;
+    color: #403F3D;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: center;
+}
+.slide1_content_text2{
+    width: 48rem;
+    height: 4.8rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    text-align: center;
+}
+.slide1_content_text3{
+    width: 48rem;
+    height: 3rem;
+    font-size: 2.4rem;
+    font-weight: 600;
+    line-height: 3rem;
+    text-align: center;
+    color:#403F3D;
+}
+.slide2{
+    display: none;
+}
+.slide3{
+    display: none;
+}
+.all{
+    width: 100%;
+}
+.slider_controls span{
+    width: 4rem;
+    height: 0.4rem;
+    border-radius: 10rem;
+    background: var(--border-light, #665F55);
+}
