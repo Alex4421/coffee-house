@@ -463,23 +463,27 @@ color: var(--text-accent, #B0907A);
     height: 59rem;
     width: 66rem;
     border-radius: 2rem;
+    transition: transform 1s ease;
 }
 .about2{
     width: 66rem;
     height: 43rem;
     border-radius: 2rem;
+    transition: all 1s ease;
 }
 .about3{
     width: 66rem;
     height: 43rem;
     gap: 0px;
     border-radius: 2rem;
+    transition: all 1s ease;
 }
 .about4{
     width: 100%;
     max-width: 66rem;
     height: 59rem;
     border-radius: 2rem;
+    transition: all 1s ease;
 }
 .mobile_app{
     width: 144rem;
@@ -764,24 +768,79 @@ footer{
     cursor: pointer;
     background-color:#dfad99;
 }
-.zoom-image {
-    transition: transform 1s ease; /* Плавный переход при изменении трансформации за 1 секунду */
-}
 .about1:hover{
-    transform: scale(0.9); /* Уменьшаем изображение на 10% */
-    transition: transform 1s ease;
+    transform: scale(0.9); 
 }
 
 .about2:hover{
     transform: scale(0.9);
-    transition: all 1s ease;
 }
-.first::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: .2rem;
-    background-color: rgb(65, 64, 62);
-    transform: scale(0);
-    transition: all .2s ease;
+.about3:hover{
+    transform: scale(0.9);
+}
+.about4:hover{
+    transform: scale(0.9);
+}
+nav ul li a{
+    position: relative;
+    display: inline-block; 
+    color: black; 
+    text-decoration: none;
+}
+nav ul li a::after {
+    content: ""; 
+    position: absolute; 
+    left: 50%; 
+    bottom: 0;
+    width: 100%; 
+    height: 2px; 
+    background-color: black; 
+    transform: translateX(-50%) scaleX(0); 
+    transition: transform 0.5s ease; 
+}
+
+nav ul li a:hover::after {
+    transform: translateX(-50%) scaleX(1);
+}
+.container_header-menu-button-img-text{
+    position: relative; 
+    display: inline-block;
+    color: black; 
+    text-decoration: none;
+}
+.container_header-menu-button-img-text::after {
+    content: ""; 
+    position: absolute;
+    left: 50%; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    background-color: black; 
+    transform: translateX(-50%) scaleX(0); 
+    transition: transform 0.5s ease; 
+}
+
+.container_header-menu-button-img-text:hover::after {
+    transform: translateX(-50%) scaleX(1); 
+}
+.menu_first{
+    position: relative; 
+    display: inline-block; 
+    color: black; 
+    text-decoration: none;
+}
+.menu_first::after {
+    content: ""; 
+    position: absolute; 
+    left: 50%; 
+    bottom: 0; 
+    width: 100%; 
+    height: 2px; 
+    background-color: black; 
+    transform: translateX(-50%) scaleX(0); 
+    transition: transform 0.5s ease; 
+}
+
+.menu_first:hover::after {
+    transform: translateX(-50%) scaleX(1); 
 }
