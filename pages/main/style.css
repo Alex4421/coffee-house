@@ -804,7 +804,6 @@ nav ul li a:hover::after {
 }
 .container_header-menu-button-img-text{
     position: relative; 
-    display: inline-block;
     color: black; 
     text-decoration: none;
 }
@@ -843,4 +842,25 @@ nav ul li a:hover::after {
 
 .menu_first:hover::after {
     transform: translateX(-50%) scaleX(1); 
+}
+.mobile_app_container_offer_buttons_ios:hover{
+    cursor: pointer;
+    background-color: #e2c397;
+}
+
+.mobile_app_container_offer_buttons_android:hover{
+    cursor: pointer;
+    background-color: #e2c397;
+}
+.footer-twitter:hover{
+    cursor: pointer;
+    background-color: #aa86509d;
+}
+.footer-instagram:hover{
+    cursor: pointer;
+    background-color: #aa86509d;
+}
+.footer-facebook:hover{
+    cursor: pointer;
+    background-color: #aa86509d;
 }
