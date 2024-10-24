@@ -863,3 +863,145 @@ nav ul li a:hover::after {
     cursor: pointer;
     background-color: #aa86509d;
 }
+.burger-menu{
+    display: none;
+}
+@media (max-width: 767px){
+    nav{
+        display: none;
+    }
+    .container_header-menu-button{
+        display: none;
+    }
+    .burger-btn{
+        position: relative;
+    z-index: 3;
+    width: 4.4rem;
+    height: 4.4rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10rem;
+    border: .1rem solid var(--border-dark, #665F55);
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    z-index: 55;
+    }
+    .container_header-menu {
+        display: flex;
+        max-width: 136rem;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .burger-line-1{
+        width: 47%;
+        border: .1rem solid #403F3D;
+        position: absolute;
+        top: 36%;
+        transition: all .3s ease;
+    }
+    .burger-line-2{
+        width: 47%;
+        border: .1rem solid #403F3D;
+        position: absolute;
+        top: 59%;
+        transition: all .3s ease;
+    }
+    body{
+        overflow: hidden;
+        padding: 0px;
+    }
+    .burger-menu{
+            position: absolute;
+            top: 0;
+            left: 100%;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
+            height: 92.4rem; 
+            padding: 140px 40px 60px 40px;
+            align-items: center;
+            gap: 100px;
+            flex: 1 0 0;
+            background:  #E1D4C9;
+            transition: all .3s ease-in-out;
+            z-index: 29;
+            display: flex;
+
+    }
+    .nav{
+        margin: 0 auto;
+        display: flex;
+        width: 68.8rem;
+        height: 34rem;
+        gap: 6rem;
+        opacity: 0px;
+
+    }
+    .logo {
+        width: 10rem;
+        height: 6rem;
+        z-index: 55;
+        position: relative;
+    }
+    .nav-list{
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;
+        display: flex;
+        width:68.8rem;
+        height: 34rem;
+        gap: 6rem;
+    }
+    .nav ul li a {
+        position: relative;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 2.4rem;
+        color:#665F55;
+    }
+    .first{
+        width: 68.8rem;
+        height: 4rem;
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 4rem;
+        text-align: center;
+        color:#403F3D;
+    }
+    .first1 a{
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 4rem;
+        text-align: center;
+        color:#403F3D;
+    }
+    .coffee-menu-767{
+        width: 68.8rem;
+        height: 4rem;
+        gap: 1.6rem;
+        display: flex;
+        justify-content: center;
+    }
+    h2{
+        width: 8.7rem;
+        height: 4rem;
+        font-size: 3.2rem;
+        font-weight: 600;
+        line-height: 4rem;
+        text-align: center;
+        color: #665F55;
+    }
+    .coffee-cup{
+        width: 4rem;
+        height: 4rem;
+    }
+    .menu{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        gap: 1.6rem;
+    }
+}   
