@@ -116,6 +116,7 @@ html{
 .container_header-menu-button{
     display: flex;
     align-items: center;
+    margin-top: 1rem;
 }
 .container_header-menu-button-img-text{
     width:  7.2rem;
@@ -576,7 +577,7 @@ color: var(--text-accent, #B0907A);
     width: 7.8rem;
     height: 2.4rem;
     color: #403F3D;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 600;
     line-height: 2.4rem;
     text-align: left;
@@ -874,7 +875,7 @@ nav ul li a:hover::after {
         display: none;
     }
     .burger-btn{
-        position: relative;
+    position: relative;
     z-index: 3;
     width: 4.4rem;
     height: 4.4rem;
@@ -883,9 +884,9 @@ nav ul li a:hover::after {
     border-radius: 10rem;
     border: .1rem solid var(--border-dark, #665F55);
     background-color: transparent;
-    cursor: pointer;
     display: flex;
     z-index: 55;
+    cursor: pointer;
     }
     .container_header-menu {
         display: flex;
@@ -908,7 +909,7 @@ nav ul li a:hover::after {
         transition: all .3s ease;
     }
     body{
-        overflow: hidden;
+        /* overflow: hidden; */
         padding: 0px;
     }
     .burger-menu{
@@ -1003,5 +1004,200 @@ nav ul li a:hover::after {
         width: 100%;
         justify-content: center;
         gap: 1.6rem;
+    }
+    .home{
+        width: 76.8rem;
+        padding: 2rem 0rem 4rem 0rem;
+        gap: 10rem;
+        background: #E1D4C9;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+    }
+    header{
+    position: relative;
+    width: 76.8rem;
+    height: 72.4rem;
+    gap: 2rem;
+    }
+    .container{
+        width: 76.8rem;
+        height: 6rem;
+    }
+    .header-main{
+        width: 76.8rem;
+        height: 64.4rem;
+        padding: 0px 4rem 0px 4rem;
+    }
+    .header-main-video{
+        width: 68.8rem;
+        height: 64.4rem;
+        border-radius: 4rem;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+    .header-main-video video{
+        width: 1440px;
+        height: 745px;
+        position: absolute;
+        z-index: 0;
+    }
+    .coffee-cup33{
+        width: 2rem;
+        height: 2rem;
+    }
+    .header-main-info-text-button{
+    width: 20rem;
+    height: 6.4rem;
+    padding: 2rem 7.8rem 2rem 7.8rem;
+    gap: 0.8rem;
+    border-radius: 10rem;
+    background-color: #E1D4C9;
+    display: flex;
+    justify-content: center;
+    }
+    .favorite-coffee{
+        width: 76.8rem;
+        height: 87.4rem;
+        padding: 0px 4rem 0px 4rem;
+        display: flex;
+    }
+    .favorite-coffee-container{
+        display: flex;
+        width: 68.8rem;
+        height: 87.4rem;
+        max-width: 136rem;
+        gap: 4rem;
+        flex-direction: column;
+    }
+    .coffee-like{
+        width: 68.8rem;
+        height: 15rem;
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 75px;
+        text-align: center;
+    }
+    .slider{
+    width: 68.8rem;
+    height: 68.4rem;
+    gap: 4rem;
+    display: flex;
+    flex-direction: column;
+    }
+    .slider_main{
+        width:  68.8rem;
+        height: 64rem;
+        gap: 4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .slider-row{
+        width: 48.8rem;
+        height: 64rem;
+        min-width: 48rem;
+        max-width: 115.2rem;
+    }
+    .about{
+        width: 76.8rem;
+        height: 171rem;
+        gap: 4rem;
+        display: flex;
+    }
+    .about_container{
+        width: 68.8rem;
+        height: 171rem;
+        gap: 4rem;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+    }
+    .about_container_text{
+        width: 68.8rem;
+    height: 45rem;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 7.5rem;
+    text-align: left;
+    color: var(--text-dark, #403F3D);
+    }
+    .about_container_images{
+        width:68.8rem;
+        height:122rem;
+        gap: 4rem;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about2{
+        display: none;
+    }
+    .about3{
+        display: none;
+    }
+    .about1{
+        height: 59rem;
+        width: 66rem;
+        border-radius: 2rem;
+    }
+    .mobile_app{
+        width: 76.8rem;
+        height: 107.2rem;
+        gap: 10rem;
+        border-radius: 4rem;
+        display: flex;
+    }
+    .mobile_app_container{
+    width:68.8rem;
+    height:107.2rem;
+    max-width: 136rem;
+    gap: 10rem;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    flex-direction: column;
+    }
+    .mobile_app_container_offer{
+        width: 68.8rem;
+        height: 34.2rem;
+        gap: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        width: 76.8rem;
+        height: 73.6rem;
+        display: flex;
+    }
+    .footer_container{
+        width: 68.8rem;
+        height: 73.6rem;
+        max-width: 136rem;
+        padding: 10rem;
+        gap: 10rem;
+        border-radius: 4rem;
+        display: flex;
+        background: #665F55;
+        margin: 0 auto;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer_container_offer{
+        width: 56.8rem;
+        height: 25rem;
+        gap: 4rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_container_contacts_info{
+        width: 56.8rem;
+        height: 18.6rem;
+        gap: 4rem;
+        display: flex;
+        flex-direction: column;
     }
 }   
